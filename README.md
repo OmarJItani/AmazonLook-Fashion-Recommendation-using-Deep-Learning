@@ -2,7 +2,7 @@
 
 Disclaimer: This work is done as part of the Amazon Industry Program 2023.
 
-## Intorduction
+## Introduction
 
 Understanding the relationship between fashion items based on their visual characteristics is fundamental to making informed and satisfying shopping choices. People often seek not just alternatives but complementary items that enhance their existing wardrobe pieces. However, the vast array of options available online can overwhelm shoppers, leading to a less satisfying shopping experience.
 
@@ -25,7 +25,7 @@ of the item you already own - it could be a shirt, a dress, or any other clothin
 ## Website Demonstration
 
 <div style="text-align: center;">
-  <img src="Readme_Files/demo_video.gif" alt="AmazonLook" width="500" loop="true"/></a>
+  <img src="Readme_Files/demo_video.gif" alt="AmazonLook" width="800" loop="true"/></a>
 </div>
 
 ## Getting Started
