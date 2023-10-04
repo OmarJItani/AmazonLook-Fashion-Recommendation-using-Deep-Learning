@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AmazonLook</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Home.css') }}">
+</head>
+<body>
+    <h1 id="header"><span id="logo"><img src="static/images/logo.png" alt="logo"></span><span id="rest">Shop faster, look better!</span></h1>
+    <div class="container">
+        <section id="welcome">
+            <h1>Welcome to Amazon<span id="orange">Look</span></h1>
+            <p>
+                Your AI tool to look amazing!
+            </p>
+        </section>
+        <section id="empower">
+            <h2>Empowering Your Shopping Experience with AI!</h2>
+            <p>
+                At AmazonLook, we understand the challenges of finding the perfect outfit. Whether you're looking for the ideal pair of shoes to match your dress or the right accessories to complete your look, our cutting-edge AI-powered solution is here to simplify your shopping journey.
+            </p>
+        </section>
+        <section id="how-it-works">
+            <h2>How It Works</h2>
+            <p>
+                Upload Your Product Image: Snap a picture of the item you already own - it could be a shirt, a dress, or any other clothing item.
+            </p>
+            <p>
+                Specify the Category: Tell us what you're looking for - shorts, shoes, hats, or any other category. We will understand your style and preferences.
+            </p>
+            <p>
+                Get Personalized Recommendations: Sit back and relax! We analyze your item and suggest complementary products available on Amazon, tailored just for you.
+            </p>    
+        </section>
+        <section id="choose">
+            <h2>Why Choose Us?</h2>
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-icon">
+                        <img src="static/images/efficacy.png" alt="Efficiency Icon">
+                    </div>
+                    <div class="card-content">
+                        <h3>Efficiency</h3>
+                        <p>Save time and effort. No more endless scrolling through products - get instant, personalized recommendations.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <img src="static/images/accurate.png" alt="Accuracy Icon">
+                    </div>
+                    <div class="card-content">
+                        <h3>Accuracy</h3>
+                        <p>Our state-of-the-art AI-powered solution ensures precise matches, based on your unique style.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon">
+                        <img src="static/images/hand-gesture.png" alt="Convenience Icon">
+                    </div>
+                    <div class="card-content">
+                        <h3>Convenience</h3>
+                        <p>Shop directly from Amazon, a platform you already trust. We're here to enhance your shopping, not replace it.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+          
+        <section id="sample-recommendations">
+            <h2>Synergetic Recommendations</h2>
+            <div class="recommendation-card">
+                <img src="static/images/orangeTshirt.jpg" alt="Outfit 1">
+                <p>Uploaded Shirt</p>
+            </div>
+            <div class="recommendation-card">
+                <img src="static/images/BeigeJeans.jpg" alt="Outfit 2">
+                <p>Recommended Jeans</p>
+            </div>
+        </section>
+        <section id="get-started">
+            <h2>Your Style, Your Choice</h2>
+            <p>
+                Rediscover the joy of shopping. Let technology work for you and make your fashion decisions effortless. Start now and experience a new era of personalized shopping.
+            </p>
+            <a href="{{ url_for('Test') }}" class="button">Take a try!</a>
+        </section>
+    </div>
+</body>
+</html>

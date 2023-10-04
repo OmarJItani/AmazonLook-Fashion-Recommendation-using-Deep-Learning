@@ -1,0 +1,173 @@
+/* Reset some default styles */
+body,
+h1,
+form {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set a background color and text color for the body */
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+#ties {
+  margin-left: 3px;
+}
+
+/* Style the header */
+h1 {
+  text-align: center;
+  padding: 20px;
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Style the form container */
+form {
+  width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the form labels */
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Style the file input */
+input[type="file"] {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Style the options container */
+.options {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Style the option labels */
+.options label {
+  flex: 1;
+  margin: 10px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.options label:hover {
+  background-color: #f0f0f0; /* Change the background color on hover */
+}
+#header {
+    background-color: #232f3e; /* Amazon blue background color */
+    color: #ffffff; /* White text color */
+    padding: 20px; /* Add padding as needed */
+    text-align: center; /* Center-align text */
+}
+
+/* Styling for the logo */
+#logo {
+    margin-right: 10px; /* Add spacing between logo and text */
+    position: absolute;
+    left: 40px;
+}
+
+#logo img {
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    vertical-align: middle; /* Align the logo vertically */
+}
+
+/* Style the radio button input */
+.options input[type="radio"] {
+  display: none;
+}
+.options label input[type="radio"]:checked + img,
+.options label input[type="radio"]:checked + span {
+  border: 2px solid blue; /* Change the border color as per your preference */
+  background-color: #f0f0f0; /* Change the background color as per your preference */
+  /* Add any other styles you want to apply to the selected option */
+}
+.button {
+    display: inline-block;
+    padding: 15px 30px; /* Adjust padding as needed */
+    background-color: #232f3e; /* Amazon blue button background color */
+    color: #ffffff; /* White text color */
+    text-decoration: none;
+    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.3s ease;
+}
+
+
+
+/* Style the option images */
+.options img {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style the option labels' text */
+.options label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Style the selected option label */
+.options label.selected {
+  border: 2px solid #007bff;
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 20px;
+  display: inline-block;
+  padding: 15px 30px; /* Adjust padding as needed */
+  background-color: #232f3e; /* Amazon blue button background color */
+  color: #ffffff; /* White text color */
+  text-decoration: none;
+  border-radius: 5px; /* Add rounded corners */
+  transition: background-color 0.3s ease;
+}
+input[type="submit"]:hover{
+    background-color: #FF9900;
+}
+#logo {
+  margin-right: 10px; /* Add spacing between logo and text */
+  position: absolute;
+  left: 40px;
+}
+
+#logo img {
+  width: 100px; /* Adjust the width as needed */
+  height: 40px; /* Maintain aspect ratio */
+  vertical-align: middle; /* Align the logo vertically */
+}
+#rest{
+  margin-left: -500px;
+  color: orange;
+}

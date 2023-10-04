@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Recommended Image</title>
+    <!-- Link to the external CSS file using url_for -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='css/result.css') }}"
+    />
+  </head>
+  <body>
+    <h1>Selected option: {{ selected_option }}</h1>
+    <section>
+      <img id="up" src="{{image_path}}" alt="uploaded image" />
+      <h1>Uploaded Image</h1>
+    </section>
+    <section>
+        <img src="{{result_path}}" alt="Result Image" />
+        <h1>Recommended Image</h1>
+      </section>
+  </body>
+</html>

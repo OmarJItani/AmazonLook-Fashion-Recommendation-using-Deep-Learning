@@ -1,0 +1,285 @@
+body {
+    background-color: #ffffff; /* White background */
+    color: #000000; /* Black text */
+}
+
+/* Styling for the header */
+#header {
+    background-color: #232f3e; /* Amazon blue background color */
+    color: #ffffff; /* White text color */
+    padding: 20px; /* Add padding as needed */
+    text-align: center; /* Center-align text */
+}
+
+/* Styling for the logo */
+#logo {
+    margin-right: 10px; /* Add spacing between logo and text */
+    position: absolute;
+    left: 40px;
+}
+
+#logo img {
+    width: 130px; /* Adjust the width as needed */
+    height: 40px; /* Maintain aspect ratio */
+    vertical-align: middle; /* Align the logo vertically */
+}
+
+
+.container {
+    max-width: 800px; /* Set a maximum width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding as needed */
+    background-color: #ffffff; /* Background color for the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+/* Styling for sections */
+section {
+    margin-bottom: 30px;
+}
+/* Styling for the "Welcome to AmazongLook" section */
+#welcome {
+    background-color: #f7f7f7; /* Light gray background color */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling for the section heading */
+#welcome h1 {
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #232f3e; /* Amazon blue text color */
+}
+#orange{
+    color: orange;
+}
+
+/* Styling for the paragraph text */
+#welcome p {
+    font-size: 18px; /* Adjust the font size as needed */
+    color: #666666; /* Dark gray text color */
+}
+/* Styling for the "Empowering Your Shopping Experience with AI!" section */
+#empower {
+    background-color: #ffffff; /* White background color */
+    padding: 30px;
+    text-align: center;
+}
+
+/* Styling for the section heading */
+#empower h2 {
+    font-size: 28px; /* Adjust the font size as needed */
+    color: #232f3e; /* Amazon blue text color */
+    margin-bottom: 20px; /* Add space below the heading */
+}
+
+/* Styling for the paragraph text */
+#empower p {
+    font-size: 18px; /* Adjust the font size as needed */
+    color: #666666; /* Dark gray text color */
+    line-height: 1.5; /* Increase line height for readability */
+}
+
+/* Add a border to separate the content from the background */
+#empower {
+    border: 1px solid #e0e0e0; /* Light gray border */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+/* Styling for the "How It Works" section */
+#how-it-works {
+    background-color: #f7f7f7; /* Light gray background color */
+    padding: 30px;
+    text-align: center;
+}
+
+/* Styling for the section heading */
+#how-it-works h2 {
+    font-size: 28px; /* Adjust the font size as needed */
+    color: #232f3e; /* Amazon blue text color */
+    margin-bottom: 20px; /* Add space below the heading */
+}
+
+/* Styling for the paragraphs */
+#how-it-works p {
+    font-size: 18px; /* Adjust the font size as needed */
+    color: #666666; /* Dark gray text color */
+    line-height: 1.5; /* Increase line height for readability */
+    margin-bottom: 15px; /* Add space between paragraphs */
+    text-align: left;
+}
+
+/* Add a border to separate the content from the background */
+#how-it-works {
+    border: 1px solid #e0e0e0; /* Light gray border */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+/* Styling for the "Why Choose Us?" section */
+#choose {
+    background-color: #ffffff; /* White background color */
+    padding: 30px;
+    text-align: center;
+}
+
+/* Styling for the section heading */
+#choose h2 {
+    font-size: 28px; /* Adjust the font size as needed */
+    color: #232f3e; /* Amazon blue text color */
+    margin-bottom: 20px; /* Add space below the heading */
+}
+
+/* Styling for the individual points */
+#choose p {
+    font-size: 18px; /* Adjust the font size as needed */
+    color: #666666; /* Dark gray text color */
+    line-height: 1.5; /* Increase line height for readability */
+    margin-bottom: 15px; /* Add space between points */
+    text-align: left; /* Left-align the points */
+}
+
+/* Add a border to separate the content from the background */
+#choose {
+    border: 1px solid #e0e0e0; /* Light gray border */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+/* Styling for paragraphs */
+p {
+    line-height: 1.5;
+}
+
+/* Styling for buttons */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #232f3e; /* Amazon blue */
+    color: #ffffff; /* White text */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #FF9900; /* Amazon orange on hover (for example) */
+}
+
+/* Styling for recommendation cards */
+/* Styling for the "Get Started" section */
+#get-started {
+    background-color: #ffffff; /* White background color */
+    padding: 30px;
+    text-align: center;
+}
+
+/* Styling for the section heading */
+#get-started h2 {
+    font-size: 28px; /* Adjust the font size as needed */
+    color: #232f3e; /* Amazon blue text color */
+    margin-bottom: 20px; /* Add space below the heading */
+}
+
+/* Styling for the paragraph text */
+#get-started p {
+    font-size: 18px; /* Adjust the font size as needed */
+    color: #666666; /* Dark gray text color */
+    line-height: 1.5; /* Increase line height for readability */
+    margin-bottom: 20px; /* Add space below the paragraph */
+}
+
+/* Styling for the "Take a try!" button */
+.button {
+    display: inline-block;
+    padding: 15px 30px; /* Adjust padding as needed */
+    background-color: #232f3e; /* Amazon blue button background color */
+    color: #ffffff; /* White text color */
+    text-decoration: none;
+    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.3s ease;
+}
+#rest{
+    margin-left: -500px;
+    color: orange;
+}
+/* Define styles for the card container */
+#choose {
+    text-align: center; /* Center-align the content within the section */
+    margin-top: 20px;
+}
+
+/* Style the card container */
+.card-container {
+    display: flex; /* Use flexbox to arrange cards horizontally */
+    justify-content: space-around; /* Distribute space between cards evenly */
+    flex-wrap: wrap; /* Allow cards to wrap to the next line if the screen is narrow */
+}
+
+/* Style each card */
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: calc(30% - 20px); /* Calculate width to accommodate margin */
+    margin: 10px; /* Add some margin between the cards */
+    text-align: center; /* Center-align the content within each card */
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* Style the card icons */
+.card-icon img {
+    max-width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Style the card content */
+.card-content h3 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.card-content p {
+    font-size: 1rem;
+    color: #777;
+    text-align: center;
+}
+
+/* Center the card content */
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.button:hover {
+    background-color: #FF9900; /* Amazon orange on hover (for example) */
+}
+/#sample-recommendations {
+    text-align: center; /* Center-align the content within the section */
+    margin-top: 20px;
+}
+
+/* Style each recommendation card */
+.recommendation-card {
+    display: inline-block; /* Display cards inline */
+    margin: 10px; /* Add some margin between the cards */
+    text-align: center; /* Center-align the content within each card */
+}
+
+/* Style the images within the cards */
+.recommendation-card img {
+    max-width: 100%; /* Ensure images don't exceed their container's width */
+    height: auto; /* Maintain aspect ratio of images */
+    max-height: 480px; /* Set a maximum height for the images */
+}
+
+/* Style the text below the images */
+.recommendation-card p {
+    margin: 10px 0; /* Add some vertical margin for separation */
+}

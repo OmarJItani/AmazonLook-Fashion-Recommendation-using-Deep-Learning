@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Recommendation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/Test.css') }}">
+</head>
+<body>
+    <h1 id="header"><span id="logo"><img src="static/images/logo.png" alt="logo"></span><span id="rest">Shop faster, look better</span></h1>
+    
+    <form action="/process" method="POST" enctype="multipart/form-data">
+        <label for="image">Upload an Image:</label>
+        <input type="file" name="image" id="image" accept="image/*" required>
+        
+        <label>Select an Option:</label>
+        <div class="options">
+            <label>
+                <input type="radio" name="options" value="Jackets">
+                <img src="static/images/jackets.jpg" alt="Jackets">
+                Jackets
+            </label>
+            <label>
+                <input type="radio" name="options" value="Shorts">
+                <img src="static/images/shorts.jpg" alt="Shorts">
+                Shorts
+            </label>
+            <label>
+                <input type="radio" name="options" value="Tshirts">
+                <img src="static/images/tshirts.jpg" alt="Tshirts">
+                Tshirts
+            </label>
+            <label>
+                <input type="radio" name="options" value="Caps">
+                <img src="static/images/caps.jpg" alt="Caps">
+                Caps
+            </label>
+            <label>
+                <input type="radio" name="options" value="Casual Shoes">
+                <img src="static/images/casualShoes.jpg" alt="Casual Shoes">
+                Casual Shoes
+            </label>
+            <label>
+                <input type="radio" name="options" value="Handbags">
+                <img src="static/images/handbag.jpg" alt="Handbags">
+                Handbags
+            </label>
+            <label>
+                <input type="radio" name="options" value="Heels">
+                <img src="static/images/heels.jpg" alt="Heels">
+                Heels
+            </label>
+            <label>
+                <input type="radio" name="options" value="Jeans">
+                <img src="static/images/jeans.jpeg" alt="Jeans">
+                Jeans
+            </label>
+            <label>
+                <input type="radio" name="options" value="Sports Shoes">
+                <img src="static/images/sportsShoes.jpg" alt="Sports Shoes">
+                Sports Shoes
+            </label>
+            <label>
+                <input type="radio" name="options" value="Sunglasses">
+                <img src="static/images/sunglasses.jpg" alt="Sunglasses">
+                Sunglasses
+            </label>
+            <label>
+                <input type="radio" name="options" value="Ties">
+                <img id="ties" src="static/images/ties.jpg" alt="Ties">
+                Ties
+            </label>
+            <label>
+                <input type="radio" name="options" value="Wallets">
+                <img src="static/images/wallets.jpg" alt="Wallets">
+                Wallets
+            </label>
+            <label>
+                <input type="radio" name="options" value="Watches">
+                <img src="static/images/watches.jpg" alt="Watches">
+                Watches
+            </label>
+            <!-- Add similar labels for other options with their respective images -->
+        </div>
+        
+        <input type="submit" value="Upload and Submit">
+    </form>
+    
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
